@@ -38,7 +38,7 @@ functions > getImages.php (mainly to fetch and display images) deleteImage.php (
 
 images (contains the uploaded images)
 
-test.sql (you can use this to create database test and the table images)
+images.sql (you can use this to create database test and the table images)
 
 ## IMPORTANT!!
 
