@@ -65,13 +65,13 @@
                         <div class="image border" style="background-image: url(<?php echo 'images/'.$image['image'] ?>); width:100%; margin-bottom:30px;">
                             <form method="POST" action="functions/deleteImage.php">
                                 <input type="hidden" name="imageid" value="<?php echo $image['id'] ?>">
-                                <input type="submit" class="delete" title="Delete Image" value="X">
+                                <input type="submit" class="delete" title="Delete Image" style="cursor:pointer" value="X">
                             </form>
-                            <a href="#" style="display:block; height:100%; width:100%;" data-toggle='modal' data-target='<?php echo '#image'.$image['id'] ?>'></a>
+                            <a href="#" style="display:block; height:100%; width:100%; cursor: zoom-in;" title="<?php echo $image['title'] ?>" data-toggle='modal' data-target='<?php echo '#image'.$image['id'] ?>'></a>
                         </div>
                     </div>
                     <div class="modal fade" id="<?php echo 'image'.$image['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-show-img" role="document">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                             <div class="modal-content">
                                 <button type="button" style="background-color:white; padding:.5rem; position:absolute; top:0; right:0; z-index:1000;" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
