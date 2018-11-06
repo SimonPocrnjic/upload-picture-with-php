@@ -18,13 +18,13 @@ Once you have installed the local host server, setup the root folder to point to
 
 How to setup and run the project
 
-###Most important files
+### Most important files
 
 functions > upload.php (most important file)
 
 server > config.php connect.php (you can of course use your own server settings to connect to your database, i'm using MYSQLI just change the $myserver variable to something else)
 
-###Example files
+### Example files
 
 Index.php (most of the stuff is just for example, importent part is the FORM tag)
 
@@ -32,7 +32,7 @@ css > app.css (you can customize it or use your own)
 
 js > app.js (the preview image function is useful, might make a separat project out of it)
 
-###Other files 
+### Other files 
 
 functions > getImages.php (mainly to fetch and display images) deleteImage.php (deletes the selected image from the database and images folder)
 
@@ -40,7 +40,7 @@ images (contains the uploaded images)
 
 test.sql (you can use this to create database test and the table images)
 
-##IMPORTANT!!
+## IMPORTANT!!
 
 You must create a table NAMED images (i still have not made it so you can use your own custom table, you can of course customize the code yourself)
 
@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `images` (
 
 ```
 
-###Files you might want to change
+### Files you might want to change
 
 server > config.php 
 
