@@ -1,4 +1,4 @@
-# Upload picture with php
+# Upload images with php
 
 Simple application that uploads images using simple PHP. 
 
