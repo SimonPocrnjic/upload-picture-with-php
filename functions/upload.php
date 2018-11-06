@@ -1,7 +1,7 @@
 <?php
-    require('server/connect.php');
-    //Directory where the image will be uploaded
-  
+	require('server/connect.php');
+	
+    //Folder where the image will be uploaded
     $target_dir = "images/";
     
     //if there are no errors 1 else 0

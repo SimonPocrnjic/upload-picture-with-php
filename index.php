@@ -65,7 +65,7 @@
                         <div class="image border" style="background-image: url(<?php echo 'images/'.$image['image'] ?>); width:100%; margin-bottom:30px;">
                             <form method="POST" action="functions/deleteImage.php">
                                 <input type="hidden" name="imageid" value="<?php echo $image['id'] ?>">
-                                <input type="submit" class="delete" value="X">
+                                <input type="submit" class="delete" title="Delete Image" value="X">
                             </form>
                             <a href="#" style="display:block; height:100%; width:100%;" data-toggle='modal' data-target='<?php echo '#image'.$image['id'] ?>'></a>
                         </div>

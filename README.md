@@ -1,6 +1,11 @@
 # Upload images with php
 
-Simple application that uploads images using simple PHP. 
+Simple application that uploads images using simple PHP and MySQL. 
+
+## Other tools i used 
+
+Bootstrap
+jQuery 
 
 ## Getting Started
 
