@@ -78,3 +78,7 @@ define('home_url', 'http://localhost/'); //url to you homepage (not really that 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Demo
+
+You can check out the DEMO version [HERE](http://simon-dev.si/projects/upload-picture-with-php/)
+
