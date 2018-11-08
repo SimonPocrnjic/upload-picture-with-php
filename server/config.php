@@ -1,5 +1,5 @@
 <?php
-//Change the constants for your server settings
+//Change the constants to your server settings
 define('server', 'localhost');
 define('server_username', 'root');
 define('server_password', '');
