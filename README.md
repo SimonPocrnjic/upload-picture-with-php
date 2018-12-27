@@ -27,7 +27,7 @@ How to setup and run the project
 
 functions > upload.php (most important file)
 
-server > config.php connect.php (you can of course use your own server settings to connect to your database, i'm using MYSQLI just change the `$myserver` variable to something else)
+server > config.php connect.php (you can of course use your own server settings to connect to your database, i'm using MYSQLI just change the `$myserver` variables to your server settings)
 
 ### Example files
 
